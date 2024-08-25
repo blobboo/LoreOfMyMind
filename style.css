@@ -1,0 +1,65 @@
+body {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 204, 255);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(0, 204, 255);
+}
+
+.corpinho {
+    background: rgb(255, 255, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-call {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 50px;
+}
+
+.Catálogo {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categorias {
+    padding-left: 20px;
+    padding-right: 20px;
+margin-top: 50px;
+}
+
+.Catálogo img {
+    opacity: 0.8;
+    height: 200px;
+}
+
+.Catálogo img:hover {
+    opacity: 1.0;
+    border: 3px solid pink;
+}
+
+.categorias h2 {
+    color: rgb(42, 122, 228)
+}
